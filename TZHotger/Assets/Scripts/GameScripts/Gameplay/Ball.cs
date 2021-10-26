@@ -23,7 +23,7 @@ public class Ball : MonoBehaviour
     IEnumerator ForceUpInc()
     {
         
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(15f);
         ForceInc();
         StartCoroutine("ForceUpInc");
     }
